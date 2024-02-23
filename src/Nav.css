@@ -4,6 +4,19 @@
     flex-wrap: wrap;
 }
 
+.navContainer {
+    background-color: blanchedalmond;
+}
+
+.homeDiv {
+    margin: 100px;
+    background-color: aliceblue;
+}
+
+.logoList {
+    flex: 1;
+}
+
 .one {
     flex: 1;
 }

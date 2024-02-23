@@ -10,10 +10,8 @@ html {
 }
 
 .logo {
-  position: absolute;
-  left: 10px;
   width: 100px;
-  height: auto;
+
 }
 
 .paragraph {
