@@ -11,20 +11,18 @@ function Nav() {
         <div >
             <nav>
                 <div className="navContainer">
-                <ul className="flexyMeni">
-                    <li className="logoList">
+                    <div className="logo">
                         <img src={logo} alt="Logo" className="logo"/>
-                    </li>
-                    <li className="one">
+                    </div>
+                    <div className="home">
                         <Link to='/'>Home</Link>
-                    </li>
-                    <li className="two">
+                    </div>
+                    <div className="contact">
                         <Link to='/Contact'>Contact</Link>
-                    </li>
-                    <li className="three">
+                    </div>
+                    <div className="about">
                         <Link to='/About'>About</Link>
-                    </li>
-                </ul>
+                    </div>
                 </div>
             </nav>
             <Routes>

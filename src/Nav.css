@@ -1,11 +1,13 @@
-.flexyMeni {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+* {
+    margin: 0;
 }
 
 .navContainer {
-    background-color: blanchedalmond;
+    display: flex;
+    width: 100%;
+    Height: 2%;
+    background-color: rgb(255, 153, 0);
+    justify-content: right;
 }
 
 .homeDiv {
@@ -13,18 +15,32 @@
     background-color: aliceblue;
 }
 
-.logoList {
+.logo {
     flex: 1;
+    justify-self: left;
 }
 
-.one {
+.home {
     flex: 1;
+    background-color: aqua;
 }
 
-.two {
+.contact {
     flex: 1;
+
 }
 
-.three {
+.about {
     flex: 1;
+
+}
+
+.home:hover {
+    flex: 1;
+    background-color: rgb(0, 255, 195);
+
+}
+
+Link {
+    text-emphasis-style: none;
 }
