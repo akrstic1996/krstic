@@ -12,7 +12,6 @@
 
 .homeDiv {
     margin: 100px;
-    background-color: aliceblue;
 }
 
 .logo {
@@ -22,9 +21,31 @@
 
 .home {
     flex: 1;
+}
+
+.home:hover {
     background-color: aqua;
 }
 
+.contact:hover {
+    background-color: aqua;
+}
+
+.about:hover {
+    background-color: aqua;
+}
+
+.home:active {
+    background-color: yellow;
+}
+
+.contact:active {
+    background-color: yellow;
+}
+
+.about:active {
+    background-color: yellow;
+}
 .contact {
     flex: 1;
 
@@ -32,14 +53,32 @@
 
 .about {
     flex: 1;
-
 }
 
-.home:hover {
+.CCC {
     flex: 1;
-    background-color: rgb(0, 255, 195);
-
 }
+
+.KT {
+    flex: 1;
+}
+
+.CCC:hover {
+    background-color: aqua;
+}
+
+.KT:hover {
+    background-color: aqua;
+}
+
+.CCC:active {
+    background-color: yellow;
+}
+
+.KT:active {
+    background-color: yellow;
+}
+
 
 Link {
     text-emphasis-style: none;
