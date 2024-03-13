@@ -5,39 +5,39 @@ import Contact from './Contact';
 import Home from './Home';
 import CCC from './CCC';
 import KT from './KT';
-import logo from './logo.WEB';
+import logo from './logo.png';
 import './Nav.css';
 
 function Nav() {
     return (<Router>
-        <div >
+        <div>
             <nav>
                 <div className="navContainer">
                     <div className="logo">
                         <img src={logo} alt="Logo" className="logo"/>
                     </div>
-                    <Link className="home" to='/'>
+                    <Link className="navItem" to='/'>
                     <div>
                         Home
                     </div>
                     </Link>
-                    <Link className="contact" to='/Contact'>
+                    <Link className="navItem" to='/Contact'>
                     <div>
                         Contact
                     </div>
                     </Link>
-                    <Link className="about" to='/About'>
+                    <Link className="navItem" to='/About'>
                     <div>
                         About
                     </div>
                     </Link>
-                    <Link className="CCC" to='/Carls'>
+                    <Link className="navItem" to='/Carls'>
                     <div>
                         Carl's Car Care
                     </div>
                     </Link>
-                    <Link className="KT" to='/Kt'>
-                    <div className="poop">
+                    <Link className="navItem" to='/Kt'>
+                    <div>
                         Krstic Trucking
                     </div>
                     </Link>

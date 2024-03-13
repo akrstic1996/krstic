@@ -1,81 +1,43 @@
 * {
     margin: 0;
+    font-family: sans-serif;
 }
 
 .navContainer {
     display: flex;
     width: 100%;
-    Height: 2%;
-    background-color: rgb(255, 153, 0);
+    Height: 100px;
+    background-image: linear-gradient(rgb(16, 45, 65), rgb(12, 36, 56), rgb(8, 30, 48));
     justify-content: right;
 }
 
-.homeDiv {
-    margin: 100px;
+.contentDiv {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(183, 216, 242);
 }
 
 .logo {
     flex: 1;
     justify-self: left;
+    height: 100%;
+    width: auto;
 }
 
-.home {
+.navItem {
     flex: 1;
+    border-left: 1px solid #000;
+    border-color: white;
+    color: rgb(183, 216, 242);
+    z-index: 0;
 }
 
-.contact {
-    flex: 1;
+.navItem:hover {
+    background-color: rgb(128, 192, 242);
+    color: rgb(12, 36, 56);
 }
 
-.about {
-    flex: 1;
-}
-
-.CCC {
-    flex: 1;
-}
-
-.KT {
-    flex: 1;
-}
-
-.home:hover {
-    background-color: orangered;
-}
-
-.contact:hover {
-    background-color: orangered;
-}
-
-.about:hover {
-    background-color: orangered;
-}
-
-.CCC:hover {
-    background-color: orangered;
-}
-
-.KT:hover {
-    background-color: orangered;
-}
-
-.home:active {
-    background-color: yellow;
-}
-
-.contact:active {
-    background-color: yellow;
-}
-
-.about:active {
-    background-color: yellow;
-}
-
-.CCC:active {
-    background-color: yellow;
-}
-
-.KT:active {
+.navItem:active {
     background-color: yellow;
 }
 

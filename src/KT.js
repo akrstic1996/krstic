@@ -1,7 +1,7 @@
 import './Nav.css';
 
 function KT() {
-    return (<div className="ktDiv">
+    return (<div className="contentDiv">
         <p>
             Krstic Trucking is a trubbing bompany :DDDD
         </p>
