@@ -16,23 +16,23 @@ function Nav() {
                     <div className="logo">
                         <img src={logo} alt="Logo" className="logo"/>
                     </div>
-                    <Link to='/'>
-                    <div className="home">
+                    <Link className="home" to='/'>
+                    <div>
                         Home
                     </div>
                     </Link>
-                    <Link to='/Contact'>
-                    <div className="contact">
+                    <Link className="contact" to='/Contact'>
+                    <div>
                         Contact
                     </div>
                     </Link>
-                    <Link to='/About'>
-                    <div className="about">
+                    <Link className="about" to='/About'>
+                    <div>
                         About
                     </div>
                     </Link>
-                    <Link to='/Carls'>
-                    <div className="CCC">
+                    <Link className="CCC" to='/Carls'>
+                    <div>
                         Carl's Car Care
                     </div>
                     </Link>

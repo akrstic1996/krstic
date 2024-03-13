@@ -23,32 +23,8 @@
     flex: 1;
 }
 
-.home:hover {
-    background-color: aqua;
-}
-
-.contact:hover {
-    background-color: aqua;
-}
-
-.about:hover {
-    background-color: aqua;
-}
-
-.home:active {
-    background-color: yellow;
-}
-
-.contact:active {
-    background-color: yellow;
-}
-
-.about:active {
-    background-color: yellow;
-}
 .contact {
     flex: 1;
-
 }
 
 .about {
@@ -63,12 +39,36 @@
     flex: 1;
 }
 
+.home:hover {
+    background-color: orangered;
+}
+
+.contact:hover {
+    background-color: orangered;
+}
+
+.about:hover {
+    background-color: orangered;
+}
+
 .CCC:hover {
-    background-color: aqua;
+    background-color: orangered;
 }
 
 .KT:hover {
-    background-color: aqua;
+    background-color: orangered;
+}
+
+.home:active {
+    background-color: yellow;
+}
+
+.contact:active {
+    background-color: yellow;
+}
+
+.about:active {
+    background-color: yellow;
 }
 
 .CCC:active {
@@ -79,7 +79,6 @@
     background-color: yellow;
 }
 
-
-Link {
-    text-emphasis-style: none;
+a {
+    text-decoration: none;
 }
