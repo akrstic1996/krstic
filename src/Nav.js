@@ -9,7 +9,8 @@ import logo from './logo.png';
 import './Nav.css';
 
 function Nav() {
-    return (<Router>
+    return (
+    <Router>
         <div>
             <nav>
                 <div className="navContainer">
@@ -19,16 +20,6 @@ function Nav() {
                     <Link className="navItem" to='/'>
                     <div>
                         Home
-                    </div>
-                    </Link>
-                    <Link className="navItem" to='/Contact'>
-                    <div>
-                        Contact
-                    </div>
-                    </Link>
-                    <Link className="navItem" to='/About'>
-                    <div>
-                        About
                     </div>
                     </Link>
                     <Link className="navItem" to='/Carls'>
@@ -41,6 +32,16 @@ function Nav() {
                         Krstic Trucking
                     </div>
                     </Link>
+                    <Link className="navItem" to='/About'>
+                    <div>
+                        About
+                    </div>
+                    </Link>
+                    <Link className="navItem" to='/Contact'>
+                    <div>
+                        Contact
+                    </div>
+                    </Link>
                 </div>
             </nav>
             <Routes>
@@ -50,6 +51,8 @@ function Nav() {
                 <Route path="/Carls" Component={CCC}/>
                 <Route path="/Kt" Component={KT}/>
             </Routes>
+        </div>
+        <div className='fade'>
         </div>
     </Router>);
 }
